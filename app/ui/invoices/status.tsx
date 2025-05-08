@@ -7,11 +7,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
       className={clsx(
         'inline-flex items-center rounded-full px-2 py-1 text-xs',
         {
-<<<<<<< HEAD
           'bg-gray-100 text-gray-500': status === 'pending',
-=======
-         'bg-gray-100 text-gray-500': status === 'pending',
->>>>>>> e342510e3a7f3c9abfd57d0dc1b1b96854d24d15
           'bg-green-500 text-white': status === 'paid',
         },
       )}
